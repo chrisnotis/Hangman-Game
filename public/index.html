@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-	</title>
+	<title>Hangman Game</title>
+	 <link rel="stylesheet" type="text/css" href="/css/normalize.css"> 
+     <link rel="stylesheet" type="text/css" href="/css/hangman.css">
+
 </head>
 <body>
+	<main class="container">
+		<h1>Let's Play Some Hangman!</h1>
+		<button id="start-btn">Start</button>
 
+		<div class="game-box">
+			<input id="letter-choice"> Enter your letter guess here</input>
+			<button id="word-generator">Get Your Challenge</button>
+
+		</div>
+
+	</main>
+
+<script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="js/hangman.js"></script>
 </body>
 </html>

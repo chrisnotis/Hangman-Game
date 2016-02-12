@@ -1,0 +1,22 @@
+
+
+.container {
+	width: 80%;
+	height: 100%;
+	background-color: #999;
+	text-align: center;
+	margin: 15px 50px;
+}
+
+#start-btn {
+	background-color: #000;
+	color: #fff;
+}
+
+.game-box {
+	height: 70vh;
+	width: 70vw;
+	background-color: #fff;
+	border: 1px solid black;
+	margin: 15px 50px;
+}
